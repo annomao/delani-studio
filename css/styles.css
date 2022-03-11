@@ -21,3 +21,9 @@
 #portfolio .container{
   padding-top: 20px;
 }
+#contact{
+  height: 50vh;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-size: cover;
+  color: white;
+}

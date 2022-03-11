@@ -1,0 +1,8 @@
+*{
+  box-sizing: border-box;
+}
+#landing-area{
+  height: 100vh;
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  color: white;
+}

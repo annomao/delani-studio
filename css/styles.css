@@ -9,5 +9,12 @@
 }
 
 #about-us{
-  height: 50vh;
+  height: 30vh;
+}
+
+#services{
+  height: 40vh;
+  background-image: url("../assets/backgrounds/s_image.jpg");
+  background-size: cover;
+  color: white;
 }

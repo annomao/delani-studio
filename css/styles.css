@@ -1,6 +1,9 @@
 *{
   box-sizing: border-box;
 }
+.spacing{
+  padding: 30px;
+}
 #landing-area{
   height: 100vh;
   background-image: url("../assets/backgrounds/h_img.jpg");
@@ -18,12 +21,20 @@
   background-size: cover;
   color: white;
 }
+
 #portfolio .container{
   padding-top: 20px;
 }
 #contact{
-  height: 50vh;
+  height:80vh;
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-size: cover;
   color: white;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.transparent-input {
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 0%;
 }

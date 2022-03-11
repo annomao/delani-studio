@@ -1,5 +1,6 @@
 *{
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 .spacing{
   padding: 30px;
@@ -12,11 +13,11 @@
 }
 
 #about-us{
-  height: 30vh;
+  height: 60vh;
 }
 
 #services{
-  height: 40vh;
+  height: 70vh;
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-size: cover;
   color: white;

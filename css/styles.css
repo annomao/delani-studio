@@ -2,6 +2,9 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+body{
+  overflow-x: hidden;
+}
 .spacing{
   padding: 30px;
 }
@@ -22,14 +25,16 @@
   background-size: cover;
   color: white;
 }
+/*styling for portfolio section*/
 .portfolio-size img{
-  width: 250px;
-  height: 250px;
+  width: 230px;
+  height: 230px;
   object-fit: cover;
 }
 #portfolio .container{
   padding-top: 20px;
 }
+/*styling for contact section*/
 #contact{
   height:auto;
   background-image: url("../assets/backgrounds/c_image.jpg");

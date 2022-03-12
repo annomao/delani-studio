@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" 
-  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" 
+  rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -17,11 +17,17 @@
 
     <!--landing area section-->
     <section id="landing-area" class="spacing">
-      <img src="/assets/logo/logo.png" alt="Logo" srcset=>
-      <h1>WELCOME</h1>
-      <h1>TO DELANI STUDIO</h1>
-      <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-      <img src="/assets/mouse_click.png" alt="Mouse Click">
+      <div class="d-flex align-items-center flex-column">
+        <div class="p-2">
+          <img src="/assets/logo/logo.png" alt="Logo" srcset=>
+          <h1>WELCOME</h1>
+          <h1>TO DELANI STUDIO</h1>
+          <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+        </div>
+        <div class="mt-auto p-2">
+          <img src="/assets/mouse_click.png" alt="Mouse Click">
+        </div>
+      </div>
     </section>
 
     <!--about us section-->
@@ -72,34 +78,34 @@
           </div>
         </div>
         <div class="container">
-          <div class="row">
+          <div class="row d-flex flex-row-reverse justify-content-around">
             <h1>PORTFOLIO</h1>
-            <div class="col-md-3">
-              <img src="assets/portfolio/work1.jpg" alt="" class="img-responsive block-center">
+            <div class="col-md-2 portfolio-size m-1">
+              <img src="assets/portfolio/work1.jpg" alt="">
             </div>
-            <div class="col-md-3">
-              <img src="assets/portfolio/work2.jpg" alt="" class="img-responsive block-center">
+            <div class="col-md-2 portfolio-size m-1">
+              <img src="assets/portfolio/work2.jpg" alt="">
             </div>
-            <div class="col-md-3">
-              <img src="assets/portfolio/work3.jpg" alt="" class="img-responsive block-center">
+            <div class="col-md-2 portfolio-size m-1">
+              <img src="assets/portfolio/work3.jpg" alt="">
             </div>
-            <div class="col-md-3">
-              <img src="assets/portfolio/work4.jpg" alt="" class="img-responsive block-center">
+            <div class="col-md-2 portfolio-size m-1">
+              <img src="assets/portfolio/work4.jpg" alt="">
             </div>
           </div>
         </div>
         <div class="container">
-          <div class="row">
-            <div class="col-md-3">
+          <div class="row d-flex flex-row justify-content-around">
+            <div class="col-md-2 portfolio-size m-1">
               <img src="assets/portfolio/work5.jpg" alt="" class="img-responsive block-center">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2 portfolio-size m-1">
               <img src="assets/portfolio/work6.jpg" alt="" class="img-responsive block-center">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2 portfolio-size m-1">
               <img src="assets/portfolio/work7.jpg" alt="" class="img-responsive block-center">
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2 portfolio-size m-1">
               <img src="assets/portfolio/work8.jpg" alt="" class="img-responsive block-center">
             </div>
           </div>
@@ -131,15 +137,15 @@
     </section>
   </main>
   <footer>
-    <img src="assets/social_icons/twitter.png" alt="">
-    <img src="assets/social_icons/dribble.png" alt="">
-    <img src="assets/social_icons/facebook.png" alt="">
-    <img src="assets/social_icons/g_plus.png" alt="">
-    <img src="assets/social_icons/skype.png" alt="">
-    <img src="assets/social_icons/stumble_upon.png" alt="">
-    <img src="assets/social_icons/behance.png" alt="">
-    <img src="assets/social_icons/pinterest.png" alt="">
-    <img src="assets/social_icons/flickr.png" alt="">
+    <img src="assets/social_icons/twitter.png" alt="Twitter Icon">
+    <img src="assets/social_icons/dribble.png" alt="Dribble Icon">
+    <img src="assets/social_icons/facebook.png" alt="Facebook Icon">
+    <img src="assets/social_icons/g_plus.png" alt="Googleplus Icon">
+    <img src="assets/social_icons/skype.png" alt="Skype Icon">
+    <img src="assets/social_icons/stumble_upon.png" alt="Stumble Icon">
+    <img src="assets/social_icons/behance.png" alt="Behance Icon">
+    <img src="assets/social_icons/pinterest.png" alt="Pinterest Icon">
+    <img src="assets/social_icons/flickr.png" alt="Flickr Icon">
     <p>Delani Studio</br>
      2022</p>
   </footer>

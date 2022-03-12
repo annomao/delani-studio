@@ -13,21 +13,25 @@
 }
 
 #about-us{
-  height: 60vh;
+  height: auto;
 }
 
 #services{
-  height: 70vh;
+  height: auto;
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-size: cover;
   color: white;
 }
-
+.portfolio-size img{
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
 #portfolio .container{
   padding-top: 20px;
 }
 #contact{
-  height:80vh;
+  height:auto;
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-size: cover;
   color: white;

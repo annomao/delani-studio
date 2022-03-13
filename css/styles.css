@@ -93,14 +93,8 @@ body{
   color: black;
   border: none;
 }
+/*remove x button from dialog box*/
 .no-close .ui-dialog-titlebar-close {
   display: none;
 }
-/*footer section*/
-footer{
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-footer img{
-  margin-right: 1%;
-}
+

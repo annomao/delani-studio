@@ -29,6 +29,9 @@ body{
   color: white;
 }
 /*styling for portfolio section*/
+.descriptions-icon:hover{
+  cursor: pointer;
+}
 .descriptions{
   display: none;
 }

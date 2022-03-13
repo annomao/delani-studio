@@ -1,6 +1,18 @@
 $(document).ready( function(){
   //functions for hide and show div
-  
+  $(".descriptions-icon").hover(
+    function() {
+    var index = $(".descriptions-icon").index(this);
+    $(".descriptions-icon").eq(index).hide();
+    $(".descriptions").eq(index).show();
+  },
+    function() {
+      var index = $(".descriptions-icon").index(this);
+      $(".descriptions-icon").eq(index).show();
+      $(".descriptions").eq(index).hide();
+    }
+  );
+
   //function for received message popup
   $("#contact-form").submit(function(e){
     e.preventDefault();

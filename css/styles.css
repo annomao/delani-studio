@@ -25,6 +25,9 @@ body{
   color: white;
 }
 /*styling for portfolio section*/
+.descriptions{
+  display: none;
+}
 .portfolio-size{
   width: 200px;
   height: 200px;
@@ -34,9 +37,7 @@ body{
   height: 200px;
   object-fit: cover;
 }
-#portfolio .container{
-  padding-top: 20px;
-}
+
 /*styling for contact section*/
 #contact{
   height:auto;

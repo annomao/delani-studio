@@ -5,14 +5,13 @@
 body{
   overflow-x: hidden;
 }
-.spacing{
-  padding: 30px;
-}
 #landing-area{
-  height: 100vh;
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-size: cover;
   color: white;
+}
+#landing-area-container{
+  height: 100%;
 }
 
 #about-us{
@@ -26,9 +25,13 @@ body{
   color: white;
 }
 /*styling for portfolio section*/
+.portfolio-size{
+  width: 200px;
+  height: 200px;
+}
 .portfolio-size img{
-  width: 230px;
-  height: 230px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
 }
 #portfolio .container{

@@ -40,14 +40,14 @@ body{
 .portfolio-hover{
   outline: 3px solid white;
   outline-offset: -15px;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 .portfolio-text{
   display: none;
-  color: black;
+  color: white;
   font-weight: bold;
   position: relative;
-  top: -130px;
+  top: -170px;
   left: 2px;
   text-align: center;
 }

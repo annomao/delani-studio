@@ -14,7 +14,7 @@ $(document).ready( function(){
       $(".descriptions").eq(index).hide();}
   });
 
-  //fucntion to show box on portfolio image hover
+  //fucntion to show white box and text on portfolio image hover
   $(".portfolio-size img").hover(
     function () {
       $(this).addClass("portfolio-hover");

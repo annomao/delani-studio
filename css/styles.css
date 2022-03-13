@@ -8,6 +8,8 @@ body{
 #landing-area{
   background-image: url("../assets/backgrounds/h_img.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: white;
 }
 #landing-area-container{
@@ -22,6 +24,8 @@ body{
   height: auto;
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: white;
 }
 /*styling for portfolio section*/
@@ -57,6 +61,8 @@ body{
   height:auto;
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   color: white;
   padding-left: 20%;
   padding-right: 20%;

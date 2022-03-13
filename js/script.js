@@ -35,11 +35,21 @@ $(document).ready( function(){
     var name = $("input").first().val();
     var message = "Hello " + name + " " + "we have received your message. Thank you for reaching out to us."
     $("#recieved-message").text(message)
+    //function that calls pop up
     $("#dialog" ).dialog({
       modal:true,
       show: { effect: "blind", duration: 800 },
-      width:500,
-      height:300
+      width:400,
+      height:250,
+      dialogClass: "no-close",
+      buttons: [
+        {
+          text: "OK",
+          click: function() {
+            $( this ).dialog( "close" );
+          }
+        }
+      ]
     });
     $("#contact-form").trigger("reset");
   });

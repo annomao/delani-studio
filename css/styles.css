@@ -84,6 +84,10 @@ body{
   color: black;
   border: none;
 }
+.no-close .ui-dialog-titlebar-close {
+  display: none;
+}
+/*footer section*/
 footer{
   padding-top: 20px;
   padding-bottom: 10px;

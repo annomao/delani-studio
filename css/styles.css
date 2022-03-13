@@ -37,6 +37,20 @@ body{
   height: 200px;
   object-fit: cover;
 }
+.portfolio-hover{
+  outline: 3px solid white;
+  outline-offset: -15px;
+  opacity: 0.5;
+}
+.portfolio-text{
+  display: none;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  top: -130px;
+  left: 2px;
+  text-align: center;
+}
 
 /*styling for contact section*/
 #contact{

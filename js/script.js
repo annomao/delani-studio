@@ -14,6 +14,21 @@ $(document).ready( function(){
       $(".descriptions").eq(index).hide();}
   });
 
+  //fucntion to show box on portfolio image hover
+  $(".portfolio-size img").hover(
+    function () {
+      $(this).addClass("portfolio-hover");
+      var index = $(".portfolio-size img").index(this);
+      $(".portfolio-text").eq(index).show();
+    },
+    function () {
+      $(this).removeClass("portfolio-hover");
+      var index = $(".portfolio-size img").index(this);
+      $(".portfolio-text").eq(index).hide();
+    }
+  );
+
+
   //function for received message popup
   $("#contact-form").submit(function(e){
     e.preventDefault();
